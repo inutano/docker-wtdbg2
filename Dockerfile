@@ -1,5 +1,5 @@
 FROM debian:8.11
-ENV VERSION v2.2
+ENV VERSION v2.3
 RUN apt-get update -y && apt-get install -y build-essential git zlib1g-dev
 RUN git clone https://github.com/ruanjue/wtdbg2 /wtdbg2 && \
     cd /wtdbg2 && \
